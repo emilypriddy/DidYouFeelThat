@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.4.2"
+  },
+  "applications": {
+    "Did You Feel That?": {
+      "applicationId": "PHtDN2GzjO0QqaWFLZ59Gcx3424kgh0oTDuqnY0Y",
+      "masterKey": "iioiORydfwo9SjALJzahhAkEUUvxoPFJl3yHo0Up"
+    },
+    "_default": {
+      "link": "Did You Feel That?"
+    }
+  }
+}

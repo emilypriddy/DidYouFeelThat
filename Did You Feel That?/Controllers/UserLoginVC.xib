@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserLoginVC">
+            <connections>
+                <outlet property="cellButton" destination="3bQ-2x-tHy" id="rDA-zT-d88"/>
+                <outlet property="cellEmail" destination="Dgy-Sf-94K" id="g8l-1n-Kq5"/>
+                <outlet property="cellPassword" destination="SGS-e8-DOa" id="3xo-W0-Ohx"/>
+                <outlet property="fieldEmail" destination="yta-va-ASO" id="Hnx-7y-gtG"/>
+                <outlet property="fieldPassword" destination="8zq-Ud-dkO" id="nvX-hQ-6w6"/>
+                <outlet property="view" destination="Slo-mQ-IUh" id="Ggx-5m-Ezm"/>
+            </connections>
+        </placeholder>
+        <tableView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" bouncesZoom="NO" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="60" sectionHeaderHeight="10" sectionFooterHeight="10" id="Slo-mQ-IUh">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="dataSource" destination="-1" id="C0u-aI-nh2"/>
+                <outlet property="delegate" destination="-1" id="2f1-64-kqU"/>
+            </connections>
+        </tableView>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Dgy-Sf-94K">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dgy-Sf-94K" id="SmJ-ud-wNC">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yta-va-ASO">
+                        <rect key="frame" x="15" y="0.0" width="290" height="60"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                        <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="next"/>
+                        <connections>
+                            <outlet property="delegate" destination="-1" id="JSq-iX-QbT"/>
+                        </connections>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yta-va-ASO" firstAttribute="top" secondItem="SmJ-ud-wNC" secondAttribute="top" id="7MC-Bz-NZC"/>
+                    <constraint firstAttribute="centerX" secondItem="yta-va-ASO" secondAttribute="centerX" id="Kva-NJ-344"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="yta-va-ASO" secondAttribute="bottom" constant="-9" id="MCL-O7-BC5"/>
+                    <constraint firstItem="yta-va-ASO" firstAttribute="leading" secondItem="SmJ-ud-wNC" secondAttribute="leadingMargin" constant="7" id="QU6-Kv-Ltz"/>
+                </constraints>
+            </tableViewCellContentView>
+        </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="SGS-e8-DOa">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SGS-e8-DOa" id="6qe-MP-Bu8">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8zq-Ud-dkO">
+                        <rect key="frame" x="15" y="0.0" width="290" height="60"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                        <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="done"/>
+                        <connections>
+                            <outlet property="delegate" destination="-1" id="9T0-DA-alc"/>
+                        </connections>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerX" secondItem="8zq-Ud-dkO" secondAttribute="centerX" id="P2A-7n-Dho"/>
+                    <constraint firstItem="8zq-Ud-dkO" firstAttribute="top" secondItem="6qe-MP-Bu8" secondAttribute="top" id="tq2-S7-TaO"/>
+                    <constraint firstItem="8zq-Ud-dkO" firstAttribute="leading" secondItem="6qe-MP-Bu8" secondAttribute="leadingMargin" constant="7" id="wgj-Vn-P3l"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="8zq-Ud-dkO" secondAttribute="bottom" constant="-9" id="zWh-uF-iUY"/>
+                </constraints>
+            </tableViewCellContentView>
+        </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="3bQ-2x-tHy">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3bQ-2x-tHy" id="QmE-3U-z3b">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNN-99-MkE">
+                        <rect key="frame" x="20" y="5" width="280" height="50"/>
+                        <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                        <state key="normal" title="LOGIN">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="actionLogin:" destination="-1" eventType="touchUpInside" id="05j-gK-aIn"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="BNN-99-MkE" firstAttribute="centerX" secondItem="QmE-3U-z3b" secondAttribute="centerX" id="DKp-NC-iGf"/>
+                    <constraint firstItem="BNN-99-MkE" firstAttribute="leading" secondItem="QmE-3U-z3b" secondAttribute="leadingMargin" constant="12" id="Va4-4j-Zl6"/>
+                    <constraint firstItem="BNN-99-MkE" firstAttribute="top" secondItem="QmE-3U-z3b" secondAttribute="topMargin" constant="-3" id="iwy-Ro-45C"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="BNN-99-MkE" secondAttribute="bottom" constant="-4" id="sEi-nx-e88"/>
+                </constraints>
+            </tableViewCellContentView>
+        </tableViewCell>
+    </objects>
+</document>
