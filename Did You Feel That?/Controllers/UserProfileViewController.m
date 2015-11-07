@@ -9,7 +9,6 @@
 
 #import <Parse/Parse.h>
 #import <ParseUI/ParseUI.h>
-#import <ParseFacebookUtilsV4/PFFacebookUtils.h>
 #import <TwitterKit/TwitterKit.h>
 
 #import "ProgressHUD.h"
@@ -45,6 +44,7 @@
 
 - (void)viewDidLoad {
     if (debug==1) NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
+    [super viewDidLoad];
     self.title = @"Profile Settings";
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Log out" style:UIBarButtonItemStylePlain target:self action:@selector(actionLogout)];
     [self.view addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismissKeyboard)]];

@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="9" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="084edb1e-9621-4e1b-9307-a05c6df4c0b4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Did You Feel That?/Controllers/DYFTQuakeDetailViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Did You Feel That?/Controllers/DYFTQuakeDetailViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Did You Feel That?/Utilities/DYFTEarthquakeRouteHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Did You Feel That?/Utilities/DYFTEarthquakeRouteHandler.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCConfig.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCContentDiscoveryManager.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCContentDiscoveryManager.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCEncodingUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCEncodingUtils.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCError.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCError.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCLinkCache.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCLinkCache.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCLinkData.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCLinkData.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCPreferenceHelper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCPreferenceHelper.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCServerInterface.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCServerInterface.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCServerRequestQueue.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCServerRequestQueue.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCServerResponse.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCServerResponse.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCStrongMatchHelper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCStrongMatchHelper.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCSystemObserver.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BNCSystemObserver.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Branch.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Branch.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BranchActivityItemProvider.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BranchActivityItemProvider.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BranchCSSearchableItemAttributeSet.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BranchCSSearchableItemAttributeSet.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BranchConstants.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BranchConstants.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/BranchDeepLinkingController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BNCDebugRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BNCDebugRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BNCServerRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BNCServerRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchApplyPromoCodeRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchApplyPromoCodeRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchCloseRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchCloseRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchConnectDebugRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchConnectDebugRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchCreditHistoryRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchCreditHistoryRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchDisconnectDebugRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchDisconnectDebugRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchGetPromoCodeRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchGetPromoCodeRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchInstallRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchInstallRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchLoadActionsRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchLoadActionsRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchLoadRewardsRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchLoadRewardsRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchLogRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchLogRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchLogoutRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchLogoutRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchOpenRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchOpenRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchRedeemRewardsRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchRedeemRewardsRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchSetIdentityRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchSetIdentityRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchShortUrlRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchShortUrlRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchShortUrlSyncRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchShortUrlSyncRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchSpotlightUrlRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchSpotlightUrlRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchUserCompletedActionRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchUserCompletedActionRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchValidatePromoCodeRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/Branch-SDK/Branch-SDK/Requests/BranchValidatePromoCodeRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Branch/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BNCConfig.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BNCContentDiscoveryManager.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BNCDebugRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BNCEncodingUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BNCError.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BNCLinkCache.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BNCLinkData.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BNCPreferenceHelper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BNCServerInterface.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BNCServerRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BNCServerRequestQueue.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BNCServerResponse.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BNCStrongMatchHelper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BNCSystemObserver.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/Branch.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchActivityItemProvider.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchApplyPromoCodeRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchCSSearchableItemAttributeSet.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchCloseRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchConnectDebugRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchConstants.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchCreditHistoryRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchDeepLinkingController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchDisconnectDebugRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchGetPromoCodeRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchInstallRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchLoadActionsRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchLoadRewardsRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchLogRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchLogoutRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchOpenRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchRedeemRewardsRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchSetIdentityRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchShortUrlRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchShortUrlSyncRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchSpotlightUrlRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchUserCompletedActionRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/Branch/BranchValidatePromoCodeRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BNCConfig.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BNCContentDiscoveryManager.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BNCDebugRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BNCEncodingUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BNCError.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BNCLinkCache.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BNCLinkData.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BNCPreferenceHelper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BNCServerInterface.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BNCServerRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BNCServerRequestQueue.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BNCServerResponse.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BNCStrongMatchHelper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BNCSystemObserver.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/Branch.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchActivityItemProvider.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchApplyPromoCodeRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchCSSearchableItemAttributeSet.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchCloseRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchConnectDebugRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchConstants.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchCreditHistoryRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchDeepLinkingController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchDisconnectDebugRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchGetPromoCodeRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchInstallRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchLoadActionsRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchLoadRewardsRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchLogRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchLogoutRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchOpenRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchRedeemRewardsRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchSetIdentityRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchShortUrlRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchShortUrlSyncRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchSpotlightUrlRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchUserCompletedActionRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/Branch/BranchValidatePromoCodeRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Branch/Branch-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Branch/Branch-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Branch/Branch.xcconfig" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Did You Feel That?.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Did You Feel That?.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Did You Feel That?/AppDelegate.m" afterPath="$PROJECT_DIR$/Did You Feel That?/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Did You Feel That?/Controllers/MapViewController.h" afterPath="$PROJECT_DIR$/Did You Feel That?/Controllers/MapViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Did You Feel That?/Controllers/MapViewController.m" afterPath="$PROJECT_DIR$/Did You Feel That?/Controllers/MapViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Did You Feel That?/Controllers/QuakesMapView.xib" afterPath="$PROJECT_DIR$/Did You Feel That?/Controllers/QuakesMapView.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Did You Feel That?/Controllers/UserProfileViewController.m" afterPath="$PROJECT_DIR$/Did You Feel That?/Controllers/UserProfileViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Bolts/Bolts.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Bolts/Bolts.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/CCHMapClusterController/CCHMapClusterController.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/CCHMapClusterController/CCHMapClusterController.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/DTMHeatmap/DTMHeatmap.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/DTMHeatmap/DTMHeatmap.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/DateTools/DateTools.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/DateTools/DateTools.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/FBSDKLoginKit/FBSDKLoginKit.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/FBSDKLoginKit/FBSDKLoginKit.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/FBSDKShareKit/FBSDKShareKit.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/FBSDKShareKit/FBSDKShareKit.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/HTKDynamicResizingCell/HTKDynamicResizingCell.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/HTKDynamicResizingCell/HTKDynamicResizingCell.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/LPPopupListView/LPPopupListView.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/LPPopupListView/LPPopupListView.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Parse/Parse.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Parse/Parse.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/ParseFacebookUtilsV4/ParseFacebookUtilsV4.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ParseFacebookUtilsV4/ParseFacebookUtilsV4.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/ParseUI/ParseUI.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ParseUI/ParseUI.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/PureLayout/PureLayout.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/PureLayout/PureLayout.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SVProgressHUD/SVProgressHUD.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SVProgressHUD/SVProgressHUD.xcconfig" />
+    </list>
+    <ignored path="DidYouFeelThat.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="FavoritesManager">
+    <favorites_list name="Did You Feel That?" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="UserProfileViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Did You Feel That?/Controllers/UserProfileViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+              <folding>
+                <element signature="e#169#192#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserCreateNewVC.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Did You Feel That?/Controllers/UserCreateNewVC.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AllQuakesContainerViewController.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Did You Feel That?/Controllers/AllQuakesContainerViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.7079208">
+              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuakeRegisterVC.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Did You Feel That?/Controllers/QuakeRegisterVC.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="219" column="11" selection-start-line="219" selection-start-column="11" selection-end-line="219" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreDataSearchTableViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Did You Feel That?/Third Party/Generic Core Data/CoreDataSearchTableViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreDataTableViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Did You Feel That?/Third Party/Generic Core Data/CoreDataTableViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Did You Feel That?/Controllers/MapViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Did You Feel That?/Controllers/UserProfileViewController.m" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="49" />
+    <option name="y" value="23" />
+    <option name="width" value="1871" />
+    <option name="height" value="1177" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utilities" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Third Party" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Supporting Files" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Did You Feel That?" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Categories" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.Did You Feel That?">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Did You Feel That?" TARGET_NAME="Did You Feel That?" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Did You Feel That?" RUN_TARGET_NAME="Did You Feel That?" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="OCGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Did You Feel That?" TARGET_NAME="Did You Feel That?" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Did You Feel That?" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Did You Feel That?" TARGET_NAME="Did You Feel That?" CONFIG_NAME="Debug" SCHEME_NAME="Did You Feel That?" RUN_TARGET_PROJECT_NAME="Did You Feel That?" RUN_TARGET_NAME="Did You Feel That?" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Did You Feel That?" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="084edb1e-9621-4e1b-9307-a05c6df4c0b4" name="Default" comment="" />
+      <created>1446672757479</created>
+      <option name="number" value="Default" />
+      <updated>1446672757479</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="49" y="23" width="1871" height="1177" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924527" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40037772" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986479" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CloudCode/cloud/moment-with-locales.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="671" column="11" selection-start-line="671" selection-start-column="11" selection-end-line="671" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Did You Feel That?/Controllers/QuakeRegisterVC.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="219" column="11" selection-start-line="219" selection-start-column="11" selection-end-line="219" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Did You Feel That?/Third Party/Generic Core Data/CoreDataSearchTableViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Did You Feel That?/Third Party/Generic Core Data/CoreDataTableViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Did You Feel That?/Controllers/MapViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Did You Feel That?/Controllers/UserCreateNewVC.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Did You Feel That?/Controllers/UserProfileViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding>
+            <element signature="e#169#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Did You Feel That?/Controllers/AllQuakesContainerViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7079208">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -16,24 +16,15 @@
 #import "SettingsViewController.h"
 #import "Settings.h"
 
-#import <CCHMapClusterController/CCHMapClusterController.h>
-#import <CCHMapClusterController/CCHMapClusterAnnotation.h>
-#import <CCHMapClusterController/CCHMapClusterControllerDelegate.h>
-#import <CCHMapClusterController/CCHCenterOfMassMapClusterer.h>
-#import <CCHMapClusterController/CCHNearCenterMapClusterer.h>
-#import <CCHMapClusterController/CCHFadeInOutMapAnimator.h>
 
 #define IS_OS_8_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
 #define debug 1
 
-@interface MapViewController () <CCHMapClusterControllerDelegate>
-@property (nonatomic, strong) NSMutableArray *annotations;
-@property (nonatomic, assign) BOOL mapPinsPlaced;
-@property (nonatomic, assign) BOOL mapPannedSinceLocationUpdate;
+@interface MapViewController ()
+
 
 @property (nonatomic) Settings *settings;
 
-@property (nonatomic, strong) NSMutableArray *allQuakes;
 
 @property (nonatomic, assign) BOOL deferringUpdates;
 
@@ -71,7 +62,6 @@
     if (IS_OS_8_OR_LATER) {
         [self.locationManager requestAlwaysAuthorization];
     }
-
 
     _annotations = [[NSMutableArray alloc] initWithCapacity:2000];
     _allQuakes = [[NSMutableArray alloc] initWithCapacity:2000];

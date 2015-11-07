@@ -89,9 +89,11 @@
 		849330451B98F42D00A89361 /* utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 849330441B98F42D00A89361 /* utilities.m */; };
 		84B21D2E1BE28EB400E46693 /* DYFTShareUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B21D2D1BE28EB400E46693 /* DYFTShareUtility.m */; };
 		84B21D301BE40BBB00E46693 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B21D2F1BE40BBB00E46693 /* StoreKit.framework */; };
+		84B21D921BE6AFAB00E46693 /* DYFTEarthquakeRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B21D911BE6AFAB00E46693 /* DYFTEarthquakeRouteHandler.m */; };
 		84BB21091B8B811F00977C67 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB21081B8B811F00977C67 /* BaseTabBarController.m */; };
 		84BB210C1B8B81E100977C67 /* DYFTMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB210B1B8B81E100977C67 /* DYFTMainTabBarController.m */; };
 		84BB210F1B8BB29500977C67 /* DYFTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB210E1B8BB29500977C67 /* DYFTNavigationController.m */; };
+		84C0DE991BE97848007B4527 /* DYFTQuakeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C0DE981BE97848007B4527 /* DYFTQuakeDetailViewController.m */; };
 		84EF31E81BA88F690080E294 /* UserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EF31E71BA88F690080E294 /* UserProfileViewController.xib */; };
 		B77273E9A978141456C88BE9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FA7D08B25E081D018ABBF8 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -234,12 +236,16 @@
 		84B21D2D1BE28EB400E46693 /* DYFTShareUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYFTShareUtility.m; path = Utilities/DYFTShareUtility.m; sourceTree = "<group>"; };
 		84B21D2F1BE40BBB00E46693 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		84B21D311BE40BD100E46693 /* DYFT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DYFT.entitlements; sourceTree = "<group>"; };
+		84B21D901BE6AFAB00E46693 /* DYFTEarthquakeRouteHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYFTEarthquakeRouteHandler.h; path = Utilities/DYFTEarthquakeRouteHandler.h; sourceTree = "<group>"; };
+		84B21D911BE6AFAB00E46693 /* DYFTEarthquakeRouteHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYFTEarthquakeRouteHandler.m; path = Utilities/DYFTEarthquakeRouteHandler.m; sourceTree = "<group>"; };
 		84BB21071B8B811F00977C67 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTabBarController.h; path = Controllers/BaseTabBarController.h; sourceTree = "<group>"; };
 		84BB21081B8B811F00977C67 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTabBarController.m; path = Controllers/BaseTabBarController.m; sourceTree = "<group>"; };
 		84BB210A1B8B81E100977C67 /* DYFTMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYFTMainTabBarController.h; path = Controllers/DYFTMainTabBarController.h; sourceTree = "<group>"; };
 		84BB210B1B8B81E100977C67 /* DYFTMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYFTMainTabBarController.m; path = Controllers/DYFTMainTabBarController.m; sourceTree = "<group>"; };
 		84BB210D1B8BB29500977C67 /* DYFTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYFTNavigationController.h; path = Controllers/DYFTNavigationController.h; sourceTree = "<group>"; };
 		84BB210E1B8BB29500977C67 /* DYFTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYFTNavigationController.m; path = Controllers/DYFTNavigationController.m; sourceTree = "<group>"; };
+		84C0DE971BE97848007B4527 /* DYFTQuakeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYFTQuakeDetailViewController.h; path = Controllers/DYFTQuakeDetailViewController.h; sourceTree = "<group>"; };
+		84C0DE981BE97848007B4527 /* DYFTQuakeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYFTQuakeDetailViewController.m; path = Controllers/DYFTQuakeDetailViewController.m; sourceTree = "<group>"; };
 		84EF31E71BA88F690080E294 /* UserProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserProfileViewController.xib; sourceTree = "<group>"; };
 		84F94A7B1BDA7F4B00B29823 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3FABB5EB02D987EED31B9D6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -448,6 +454,8 @@
 				8493303C1B98F0DF00A89361 /* WelcomeViewController.h */,
 				8493303D1B98F0DF00A89361 /* WelcomeViewController.m */,
 				8493303E1B98F0DF00A89361 /* WelcomeViewController.xib */,
+				84C0DE971BE97848007B4527 /* DYFTQuakeDetailViewController.h */,
+				84C0DE981BE97848007B4527 /* DYFTQuakeDetailViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -473,6 +481,8 @@
 				841EC5EA1B98FEF8002099EC /* images.m */,
 				84B21D2C1BE28EB400E46693 /* DYFTShareUtility.h */,
 				84B21D2D1BE28EB400E46693 /* DYFTShareUtility.m */,
+				84B21D901BE6AFAB00E46693 /* DYFTEarthquakeRouteHandler.h */,
+				84B21D911BE6AFAB00E46693 /* DYFTEarthquakeRouteHandler.m */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -722,6 +732,7 @@
 				8481A44B1B29F1D7003B5D5D /* UserProfileViewController.m in Sources */,
 				84715BC41B8E20E40064FC44 /* Settings.m in Sources */,
 				8481A4511B29F6B3003B5D5D /* PFUserSignUpViewController.m in Sources */,
+				84B21D921BE6AFAB00E46693 /* DYFTEarthquakeRouteHandler.m in Sources */,
 				848BE0611BB1DEBB00F89937 /* CLLocation+Utilities.m in Sources */,
 				8481A3F31B28AB48003B5D5D /* AllQuakesMapViewController.m in Sources */,
 				848BE0041BACA43F00F89937 /* AllQuakesTableViewController.m in Sources */,
@@ -739,6 +750,7 @@
 				841EC5FD1B9CE8DD002099EC /* pushnotification.m in Sources */,
 				8481A4051B28AC99003B5D5D /* UserCreateNewVC.m in Sources */,
 				841E52601B4EE48500776705 /* HeatMapViewController.m in Sources */,
+				84C0DE991BE97848007B4527 /* DYFTQuakeDetailViewController.m in Sources */,
 				848BE04F1BB1D86200F89937 /* QuakesMapViewController.m in Sources */,
 				8481A3A51B28A13A003B5D5D /* AppDelegate.m in Sources */,
 				841EC5EC1B98FEF8002099EC /* images.m in Sources */,
@@ -899,7 +911,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				PODS_ROOT = "${SRCROOT}/Pods";
+				PODS_ROOT = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.headstormstudios.Did-You-Feel-That";
 				PRODUCT_NAME = DYFT;
 				PROVISIONING_PROFILE = "";
@@ -927,7 +939,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				PODS_ROOT = "${SRCROOT}/Pods";
+				PODS_ROOT = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.headstormstudios.Did-You-Feel-That";
 				PRODUCT_NAME = DYFT;
 				PROVISIONING_PROFILE = "";

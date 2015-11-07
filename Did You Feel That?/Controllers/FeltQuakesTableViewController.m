@@ -155,8 +155,8 @@
 }
 
 #pragma mark - Navigation
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+// prepareForSegue:sender: is not called because launchFeltMapVC is used instead.
+/*- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if (debug==1) NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
 
     FeltMapVC *mapVC = (FeltMapVC *)segue.destinationViewController;
@@ -167,7 +167,7 @@
 
         mapVC.quakeID = object.objectId;
     }
-}
+}*/
 
 - (IBAction)launchFeltMapVC:(id)sender {
     if (debug==1) NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
