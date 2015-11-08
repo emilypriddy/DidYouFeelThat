@@ -26,9 +26,9 @@ PODS:
   - Bolts/AppLinks (1.4.0):
     - Bolts/Tasks
   - Bolts/Tasks (1.4.0)
-  - Branch (0.11.6)
   - CCHMapClusterController (1.6.6)
   - DateTools (1.7.0)
+  - DeepLinkKit (1.1.0)
   - DTMHeatmap (1.0)
   - FBSDKCoreKit (4.7.0):
     - Bolts (~> 1.1)
@@ -63,9 +63,9 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
-  - Branch
   - CCHMapClusterController
   - DateTools
+  - DeepLinkKit
   - DTMHeatmap
   - FBSDKShareKit
   - HockeySDK (~> 3.7.2)
@@ -80,9 +80,9 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
   Bolts: 0e9bce58b9b9f5e8a7a4d47b16d2fabec289072b
-  Branch: 30126fc6fbb24a912e52cf2c5ca12d2433abdb3d
   CCHMapClusterController: 982db41114b42a575798366371bd9908e0f9ec8b
   DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  DeepLinkKit: 3979713c8a0b6bd3259fb7917e572acf56645a35
   DTMHeatmap: f5588af0730fbfe78c75d6d013f1932d7d327ab2
   FBSDKCoreKit: eb580bfc2040ad44f4c0b4f4d0befb1d35bce59c
   FBSDKLoginKit: 028c5a205990441123764609fe795e65027c447f

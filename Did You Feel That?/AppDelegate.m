@@ -27,11 +27,14 @@
 #import "UserLoginVC.h"
 
 #import "AllQuakesContainerViewController.h"
+#import "DYFTEarthquakeRouteHandler.h"
+#import <DeepLinkKit/DeepLinkKit.h>
 
 
 @interface AppDelegate () <QuakesViewControllerDelegate, SetupViewControllerDelegate>
 @property (nonatomic, strong) NSData *devicePushToken;
 @property (nonatomic, weak) AllQuakesContainerViewController *containerController;
+@property (strong, nonatomic) DPLDeepLinkRouter *router;
 
 @end
 
@@ -61,6 +64,8 @@
         application.applicationIconBadgeNumber = 0;
         [[PFInstallation currentInstallation] saveInBackground];
     }
+
+    self.router = [[DPLDeepLinkRouter alloc] init];
 
     // Set the global tint on the navigation bar
     [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:0.098 green:0.165 blue:0.204 alpha:1.000]];
@@ -148,6 +153,13 @@
     [[BITHockeyManager sharedHockeyManager].authenticator authenticateInstallation];
 
     [FBSDKProfile enableUpdatesOnAccessTokenChange:YES];
+
+
+    // Route registration
+    self.router[@"earthquake/:usgsID"] = [DYFTEarthquakeRouteHandler class];
+
+
+    
     return [[FBSDKApplicationDelegate sharedInstance] application:application
                                     didFinishLaunchingWithOptions:launchOptions];
 }
@@ -209,6 +221,8 @@
     //    [[self cdh] saveContext];
 }
 
+#pragma mark - Handle incoming URLs & Universal Links
+
 - (BOOL)application:(UIApplication *)application
             openURL:(NSURL *)url
   sourceApplication:(NSString *)sourceApplication
@@ -216,23 +230,24 @@
     if (debug == 1) NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
 
     NSLog(@"Calling Application Bundle ID: %@", sourceApplication);
+    NSLog(@"URL = %@", url);
     NSLog(@"URL scheme: %@", [url scheme]);
-    NSLog(@"URL query: %@", [url query]);
+    NSLog(@"URL host = %@", [url host]);
     NSLog(@"URL path: %@", [url path]);
+    NSLog(@"URL query: %@", [url query]);
 
-    if ([[url host] isEqualToString:@"earthquake"]) {
-        NSLog(@"url host = earthquake");
-    } else {
-        NSLog(@"url host = %@", [url host]);
-    }
-    return YES;
+    NSString *query = [url query];
+    NSDictionary *params = [self parseURLParams:query];
+    NSLog(@"params dictionary = %@", params);
 
-    /*
-    return [[FBSDKApplicationDelegate sharedInstance] application:application
-                                                          openURL:url
-                                                sourceApplication:sourceApplication
-                                                       annotation:annotation];
-     */
+
+    return [self.router handleURL:url
+                  withCompletion:NULL];
+
+//    return [[FBSDKApplicationDelegate sharedInstance] application:application
+//                                                          openURL:url
+//                                                sourceApplication:sourceApplication
+//                                                       annotation:annotation];
 
 //    BOOL urlWasHandled =
 //    [FBAppCall handleOpenURL:url
@@ -269,6 +284,13 @@
 //
 //    return urlWasHandled;
 
+}
+
+- (BOOL)application:(UIApplication *)application
+    continueUserActivity:(NSUserActivity *)userActivity
+      restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler {
+    return [self.router handleUserActivity:userActivity
+                            withCompletion:NULL];
 }
 
 // A function for parsing URL parameters
