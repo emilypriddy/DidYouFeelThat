@@ -4,8 +4,8 @@
   },
   "applications": {
     "Did You Feel That?": {
-      "applicationId": "PHtDN2GzjO0QqaWFLZ59Gcx3424kgh0oTDuqnY0Y",
-      "masterKey": "iioiORydfwo9SjALJzahhAkEUUvxoPFJl3yHo0Up"
+      "applicationId": "APP ID HERE",
+      "masterKey": "APP MASTER KEY HERE"
     },
     "_default": {
       "link": "Did You Feel That?"
